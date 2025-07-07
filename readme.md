@@ -8,41 +8,19 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://www.docker.com/get-started/)
 
-## Passos para subir o projeto
+## Para subir o projeto
 
-1. **Faça o download do repositório:**
-   [Clique aqui para realizar o download](https://github.com/guilhermeonrails/imersao-devops/archive/refs/heads/main.zip)
-
-2. **Crie um ambiente virtual:**
+1. **Execute a aplicação:**
    ```sh
-   python3 -m venv ./venv
+   docker compose up
    ```
-
-3. **Ative o ambiente virtual:**
-   - No Linux/Mac:
-     ```sh
-     source venv/bin/activate
-     ```
-   - No Windows:
-     ```sh
-     venv\Scripts\activate
-     ```
-
-4. **Instale as dependências:**
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-5. **Execute a aplicação:**
-   ```sh
-   uvicorn app:app --reload --port 8001
-   ```
-
-6. **Acesse a documentação interativa:**
+   
+2. **Acesse a documentação interativa:**
 
    Abra o navegador e acesse:  
    [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs)
-
+   
+   
    Aqui você pode testar todos os endpoints da API de forma interativa.
 
 ---
