@@ -10,14 +10,16 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 ## Para subir o projeto
 
- **Execute a aplicação:**
+1. **Execute a aplicação:**
    ```sh
    docker compose up
    ```
-**Acesse a documentação interativa:**
+   
+2. **Acesse a documentação interativa:**
 
    Abra o navegador e acesse:  
    [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs)
+   
    
    Aqui você pode testar todos os endpoints da API de forma interativa.
 
